@@ -1,0 +1,181 @@
+@media (max-width: 991px) {
+  .mobile-header{
+    display: block;
+  }
+  .main-pc-toolbar{
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .mobile-header{
+    display: none;
+  }
+  .main-pc-toolbar{
+    display: block;
+  }
+
+}
+
+
+.navbar-brand {
+  margin-right: unset;
+}
+.img-logo {
+  width: 200px;
+}
+svg{
+  width: 200px;
+  fill: #fff !important;
+}
+:host ::ng-deep .p-sidebar.p-sidebar-active{
+  z-index: 9999!important;
+}
+:host ::ng-deep .p-sidebar-close {
+  right: 0!important;
+  left: unset!important;
+}
+
+
+:host::ng-deep .p-panelmenu {
+  text-align: right;
+  direction: rtl;
+  margin-top: 30px;
+  width: 100%!important;
+  background-color: transparent!important;
+  border: none!important;
+  // border-top: 1px solid #000;
+
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-header > a .p-panelmenu-icon {
+  position: absolute;
+  left: 0;
+  margin-right: unset!important;
+  margin-left: 0.5rem;
+}
+:host::ng-deep .pi-chevron-right:before {
+  content: "\e900";
+}
+
+:host::ng-deep .pi-angle-right:before {
+  content: "\e931";
+}
+
+:host::ng-deep .p-panelmenu .p-panelmenu-header.p-highlight > a {
+  background: transparent!important;
+  border-color: transparent!important;
+  color: #4d4d4d!important;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+:host::ng-deep .p-panelmenu .p-panelmenu-header:not(.p-highlight):not(.p-disabled) > a {
+  background: transparent!important;
+  border-color: transparent!important;
+  color: #4d4d4d!important;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-header > a:focus {
+  box-shadow: none!important;
+
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-header.p-highlight:not(.p-disabled) > a:hover {
+  border: none!important;
+  background: transparent!important;
+  color: #0194D1!important;
+}
+
+:host::ng-deep .p-panelmenu .p-panelmenu-header > a .p-menuitem-icon {
+  margin-right: unset!important;
+  margin-left: 0.5rem;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-panelmenu-icon {
+  left: 0;
+  margin-right: unset!important;
+  margin-left: 0.5rem;
+}
+
+:host::ng-deep .p-panelmenu-content {
+  padding: 0.25rem 0;
+  border: none!important;
+  background-color: #F6F6F6!important;
+  color: #000;
+  border-radius: unset!important;
+
+}
+
+
+:host::ng-deep .p-panelmenu .p-menuitem-text {
+  color: #000;
+ 
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-header > a .p-menuitem-icon {
+  color: #000;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link .p-menuitem-icon {
+  color: #000;
+  margin-right: unset!important;
+  margin-left: 0.5rem;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-submenu-list:not(.p-panelmenu-root-submenu) {
+  padding: 0 1rem 0 0!important;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:focus {
+  color: #0194D1!important;
+  box-shadow: none!important;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-text {
+  color: #0194D1;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover .p-menuitem-icon {
+  color: #0194D1;
+}
+:host::ng-deep .p-panelmenu .p-panelmenu-content .p-menuitem .p-menuitem-link:not(.p-disabled):hover {
+  background: #F6F6F6!important;
+}
+
+.mobile-header{
+  background-color: #fff;
+}
+
+header.has-bg-image:not(.main-toolbar-fixed) #main-toolbar {
+  background: transparent !important;
+}
+
+.main-pc-toolbar {
+  position: relative;
+  height: 72px;
+  padding: 0 16px;
+  transition: 0.2s;
+  z-index: 9;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: -72px;
+}
+
+.menu-img {
+  fill: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba($color: #ffffff, $alpha: .8)
+}
+
+ .request{
+   color: #000000;
+ }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.sticky .menu-img {
+  fill: var(--color-green) !important;
+}
+.sticky .nav-link {
+  color: rgba($color: #000000, $alpha: .8) !important;
+}
+
+
+

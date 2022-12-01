@@ -1,0 +1,47 @@
+
+.social-links {
+  text-align: center;
+
+}
+
+ .social-links a {
+  display: inline-block;
+  line-height: 1;
+  margin-top: 15px;
+  padding: 0px 5px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+ .social-links a:hover {
+  transform: scale(1.12);
+}
+.social-links a svg {
+  fill: #fff;
+  width: 25px;
+  height: 25px;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+.copy-bg {
+  background: #000;
+  color: #fff;
+  font-family: 'IRANSans_Light' !important;
+}
+
+.copyright {
+  text-align: center;
+  padding-top: 20px;
+  color: #fff;
+}
+
+.credits {
+  padding: 8px;
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+}
+
+.credits a {
+  color: #fff;
+}

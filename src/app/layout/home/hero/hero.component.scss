@@ -1,0 +1,80 @@
+
+#hero {
+  background-color: #F8F6FA;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  padding-top: 80px;
+  height: 100vh;
+  background-image: linear-gradient(rgba(#000, .9),rgba(#111, .6),rgba(#000, .9)),
+   url("../../../../assets/images/hero-bg.jpg");
+  background-size: cover;
+}
+
+
+#hero .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 40px 15px;
+}
+
+#hero h1 {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  font-size: 26px;
+  padding: 10px 30px;
+  margin-bottom:30px;
+  margin-top: 30px;
+  border-radius: 50px;
+}
+
+#hero h2 {
+  color: #eee;
+  margin-bottom: 40px;
+  font-size: 24px;
+  font-family: 'IRANSans_Light' !important;
+}
+
+#hero .btn-get-started {
+  font-size: 13px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px 9px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
+  margin-top: 60px;
+}
+
+#hero .btn-get-started:hover {
+  background: #faf1f3;
+  border: 2px solid #faf1f3;
+  color: #000;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 22px;
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-height: 500px) {
+  #hero {
+    height: 150vh;
+  }
+}

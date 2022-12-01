@@ -1,0 +1,98 @@
+.features{
+  text-align: center;
+  padding-top: 10px;
+
+}
+.section-header h2{
+  color: #777;
+}
+.features .feature-box {
+  padding: 15px 20px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+  transition: 0.3s;
+  border-radius: 5px;
+  margin-top: 5px;
+  background-color: #fff !important;
+
+}
+
+.features .feature-box h3 {
+  font-size: 18px;
+  color: #777;
+  font-weight: 300;
+  margin: 0;
+
+}
+
+.features .feature-box i {
+  line-height: 0;
+  color: #777;
+  padding: 4px;
+  margin-left: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.features .feature-box:hover i {
+  color: #252525;
+}
+
+
+
+.about {
+  padding-top: 80px;
+  box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%) !important;
+  background-color: #fff;
+  padding: 30px 5px;
+  margin: 20px 40px 40px;
+  border-radius: 5px;
+}
+
+.about h2 {
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #777;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+ul li{
+  margin:5px  35px 5px 0;
+  text-align:justify ;
+  font-size: 14px;
+  font-family: 'IRANSans_Light' !important;
+}
+
+:host ::ng-deep .tabview{
+  color: #777;
+}
+:host ::ng-deep .tabview .p-tabview-nav {
+  padding: 0;
+  font-size: 14px;
+  font-family: 'IRANSans_Bold' !important;
+  border-color: transparent;
+}
+
+/* not selected */
+:host ::ng-deep .p-tabview .p-tabview-nav li .p-tabview-nav-link {
+  color: #777;
+}
+:host ::ng-deep .p-tabview .p-tabview-panels{
+  text-align:justify ;
+  font-size: 14px;
+  font-family: 'IRANSans_Light' !important;
+}
+/* hover */
+:host ::ng-deep .p-tabview .p-tabview-nav li:not(.p-highlight):not(.p-disabled):hover .p-tabview-nav-link {
+  border-color:#407BFF;
+  color:#407BFF;
+}
+
+/* selected */
+:host ::ng-deep .p-tabview .p-tabview-nav li.p-highlight .p-tabview-nav-link {
+  color:#407BFF;
+  border-color: #407BFF;
+  border-bottom-width: 2px;
+  outline-color: transparent;
+}
