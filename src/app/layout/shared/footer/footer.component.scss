@@ -1,0 +1,41 @@
+#footer {
+  color: #fff;
+  font-size: 14px;
+  margin-top: 25px;
+  background: #444;
+}
+
+#footer .social-links {
+  text-align: center;
+}
+
+#footer .social-links a {
+  display: inline-block;
+  line-height: 1;
+  padding: 0px 5px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+#footer .social-links a:hover {
+  transform: scale(1.12);
+}
+
+#footer .social-links a svg {
+  fill: #fff;
+  width: 25px;
+  height: 25px;
+  stroke: #fff;
+  stroke-width: 1px;
+}
+
+#footer .copyright {
+  text-align: center;
+  font-size: 11px;
+  padding:5px;
+}
+
+#footer .copyright a {
+  font-size: 12px;
+  font-family: myfont;
+}

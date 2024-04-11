@@ -1,0 +1,55 @@
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.item {
+    display: flex;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+    padding: 10px 5px;
+}
+
+.item:hover {
+   transform: scale(1.05);
+    //box-shadow: 6px 5px 20px 0px rgba(#ddd, .3);
+}
+
+.item i {
+    font-size: 40px;
+}
+
+.item .text {
+    padding-right: 10px;
+}
+
+.item .text p {
+    font-size: 14px;
+}
+
+.item .text h6 {
+    font-family: myfont-bold;
+    font-size: 14px;
+}
+
+@media (max-width: 991px) {
+    .item {
+        flex: 0 1 calc(50% - 5px);
+    }
+
+    .item h6 {
+        font-size: 12px;
+    }
+
+    .item p {
+        font-size: 12px;
+    }
+
+    .item img {
+        height: 40px !important;
+        width: 40px !important;
+    }
+}

@@ -1,0 +1,38 @@
+<div class="header-pc">
+  <p-toolbar>
+    <div class="p-toolbar-group-start">
+      <img src="../../../../assets/images/logo.png" alt="شرکت ایده پردازان پارس آراد" />
+    </div>
+    <div class="p-toolbar-group-center">
+      <p-megaMenu [model]="items"></p-megaMenu>
+    </div>
+    <div class="p-toolbar-group-end">
+
+    </div>
+  </p-toolbar>
+</div>
+
+<div class="header-mobile text-center">
+  <p-toolbar>
+    <div class="p-toolbar-group-start">
+      <i class="bx bx-menu toggle" (click)="showMenu()"></i>
+      <img src="../../../../assets/images/logo.png" alt="شرکت ایده پردازان پارس آراد" />
+    </div>
+    <div class="p-toolbar-group-center">
+
+    </div>
+    <div class="p-toolbar-group-end">
+
+    </div>
+  </p-toolbar>
+</div>
+
+
+<p-sidebar [(visible)]="display" [style]="{'width':'300px'}" position="right" [showCloseIcon]="true"
+  [baseZIndex]="10000">
+  <div class="d-flex flex-column">
+    <div class="mb-auto">
+      <p-panelMenu [model]="items1" [style]="{ width: '100%' }"></p-panelMenu>
+    </div>
+  </div>
+</p-sidebar>
