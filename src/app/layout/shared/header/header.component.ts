@@ -75,12 +75,12 @@ export class HeaderComponent implements OnInit {
     this.items = [
       {
         label: 'صفحه اصلی',
-        icon: 'pi pi-fw pi-home',
+        // icon: 'pi pi-fw pi-home',
         command: () => this.router.navigate(['/']),
       },
       {
         label: 'محصولات',
-        icon: 'pi pi-fw pi-bars',
+        // icon: 'pi pi-fw pi-bars',
         items: [
           [
             {
@@ -109,12 +109,12 @@ export class HeaderComponent implements OnInit {
       },
       {
         label: 'سوالات متداول',
-        icon: 'pi pi-fw pi-question-circle',
+        // icon: 'pi pi-fw pi-question-circle',
         command: () => this.onClick('faq')
       },
       {
         label: 'ارتباط با ما',
-        icon: 'pi pi-fw pi-info-circle',
+        // icon: 'pi pi-fw pi-info-circle',
         command: () => this.onClick('footer')
       }
     ];

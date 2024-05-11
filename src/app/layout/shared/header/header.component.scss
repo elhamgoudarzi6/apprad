@@ -25,19 +25,18 @@
 
 .header-mobile {
   display: none;
-  background-color: #f1f1f1;
   z-index: 100;
   position: sticky;
   padding: 10px 5px;
-  border-bottom: #eee .5px solid;
   top: 0;
 }
 
-.header-mobile img{
+.header-mobile img {
   max-width: 40px;
 }
+
 .header-pc img {
-  max-width: 60px;
+  max-width: 50px;
 }
 
 :host::ng-deep .p-panelmenu {
@@ -127,7 +126,7 @@
 }
 
 :host::ng-deep .p-toolbar {
- // margin-top: 15px;
+  // margin-top: 15px;
   //background-color: #fff;
 }
 
@@ -141,12 +140,12 @@
 }
 
 :host::ng-deep .p-megamenu.p-megamenu-horizontal .p-megamenu-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link .p-menuitem-text {
-  font-size: 12px;
+  font-size: 14px;
   font-family: myfont-bold;
 }
 
 :host::ng-deep .p-megamenu.p-megamenu-horizontal .p-megamenu-root-list>.p-menuitem>.p-menuitem-content .p-menuitem-link {
-  padding: 10px 5px;
+  padding: 10px;
 }
 
 :host::ng-deep .p-megamenu-horizontal .p-megamenu-root-list {
@@ -195,6 +194,7 @@
   .header-mobile {
     display: block;
   }
+
   .header-pc {
     display: none;
   }

@@ -1,38 +1,11 @@
-.slider {
-  position: relative;
-  margin-top: 10px;
+img {
+  clip-path: polygon(10% 0, 100% 0%, 100% 100%, 0 100%);
 }
-.slider .text{
-  position: absolute;
-  color: #fff;
-  text-align: center;
-  top: 35%;
-  width: 100%;
-  padding: 0 35px;
+button{
+  border-radius: 5px;
 }
-.slider h1 {
-  font-family: myfont-bold;
-  font-size: 30px;
-}
-.slider h2 {
-  font-family: myfont;
-  font-size: 25px;
-  margin-top: 20px;
-  line-height: 50px;
-}
-.slider img {
-  border-radius: 10px;
-}
-
 @media (max-width: 991px) {
   img {
-    height: 260px;
-  }
-  .slider h1 {
-    font-size: 18px;
-  }
-  .slider h2 {
-    font-size: 16px;
-    line-height: 30px;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 100%);
   }
 }

@@ -13,5 +13,9 @@ export class HeroComponent implements OnInit {
 
   ngOnInit(): void { }
 
+  go() {
+    location.href='https://www.apprad.ir';
+  }
+
 }
 
